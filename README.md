@@ -40,19 +40,19 @@ flutter pub get
 ### JSON
 
 ```bash
-flutter run -d macos -- -i qa_pairs.json -o output.json
+flutter run -d macos --dart-entrypoint-args="-i,qa_pairs.json,-o,output.json"
 
 # Custom text field
-flutter run -d macos -- -i data.json -o out.json --text-field content
+flutter run -d macos --dart-entrypoint-args="-i,data.json,-o,out.json,--text-field,content"
 ```
 
 ### PDF
 
 ```bash
-flutter run -d macos -- -i document.pdf -o output.json --input-type pdf
+flutter run -d macos --dart-entrypoint-args="-i,document.pdf,-o,output.json,--input-type,pdf"
 
 # Directory of PDFs
-flutter run -d macos -- -i ./docs/ -o output.json --input-type pdf-dir
+flutter run -d macos --dart-entrypoint-args="-i,./docs/,-o,output.json,--input-type,pdf-dir"
 ```
 
 ### Options
