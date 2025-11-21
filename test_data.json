@@ -1,0 +1,19 @@
+{
+  "qa_pairs": [
+    {
+      "id": "test_001",
+      "question": "What is maternal health?",
+      "answer": "Maternal health refers to the health of women during pregnancy, childbirth, and the postpartum period."
+    },
+    {
+      "id": "test_002",
+      "question": "When should I see a doctor during pregnancy?",
+      "answer": "You should see a doctor as soon as you know you are pregnant, and then attend regular antenatal care visits."
+    },
+    {
+      "id": "test_003",
+      "question": "What foods should I eat during pregnancy?",
+      "answer": "Eat a balanced diet with plenty of fruits, vegetables, proteins, and whole grains. Take prenatal vitamins as recommended."
+    }
+  ]
+}
